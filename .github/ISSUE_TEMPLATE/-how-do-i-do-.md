@@ -13,4 +13,4 @@ This is due to the fact that the best place to ask questions of JsJoda is the [J
 
 So before asking a question here, please ask it on StackOverflow instead or look in the JsJoda documentation.
 
-If however you feel that the documentation is unclear, you can ask the question below. But if I can find a link to the explanation in the JsJoda documentation I will be very sad.
+If however you feel that the documentation is unclear, you can ask the question below. But if I can find a link to the explanation in the JsJoda documentation I will be very sad. But if it really is due to the way this library works, we'll of course update the documentation.
