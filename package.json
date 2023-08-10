@@ -1,0 +1,27 @@
+{
+  "name": "js-joda-usher",
+  "type": "module",
+  "source": "src/js-joda-usher.ts",
+  "exports": {
+    "require": "./dist/js-joda-usher.cjs",
+    "default": "./dist/js-joda-usher.modern.js"
+  },
+  "main": "./dist/js-joda-usher.cjs",
+  "types": "dist/js-joda-usher.d.ts",
+  "module": "./dist/js-joda-usher.module.js",
+  "unpkg": "./dist/js-joda-usher.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "test": "NODE_ENV=test jest --coverage",
+    "test:no-coverage": "NODE_ENV=test jest",
+    "test:watch": "NODE_ENV=test jest --coverage --watch"
+  },
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  },
+  "dependencies": {
+    "@js-joda/core": "^5.5.3",
+    "@js-joda/locale": "^4.8.10"
+  }
+}
